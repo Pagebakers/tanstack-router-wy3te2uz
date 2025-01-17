@@ -23,7 +23,7 @@ export function RemoteComponent<TName>(props: ExtensionSlotProps<TName>) {
 
 export const ComponentProvider = ({
   children,
-  feedUrl = '/api/v1/pilets',
+  feedUrl = '/api/v1/pilets-mock',
 }: PropsWithChildren<{
   feedUrl?: string | undefined;
 }>) => {
